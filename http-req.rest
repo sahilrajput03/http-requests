@@ -1,0 +1,27 @@
+### Request at /
+get http://localhost:8080
+Content-Type: application/json
+
+{
+  "body": "data"
+}
+
+### Request at /a
+get http://localhost:8080/a
+
+### Request at /b
+get http://localhost:8080/b
+Content-Type: application/json
+
+{
+  "name": "Jackson",
+  "surname": "Michael"
+}
+
+### Request at /c
+get http://localhost:8080/c?name=Sahil&lastname=Rajput
+
+Content-Type: application/json
+
+{}
+
